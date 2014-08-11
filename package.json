@@ -11,5 +11,5 @@
     "uglify"  : "~2.4.15"
   },
   "main":  "./lib/compile.js",
-  "bin": { "TCompile": "bin/compile" }
+  "bin": { "Tcompile": "bin/compile" }
 }

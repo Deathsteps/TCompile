@@ -6,7 +6,7 @@ TCompile is a compress/merge tool for ctrip/Taocan project. It will compress the
 
 * Install: download the source, then run the npm command: `npm install [TCompile directory]`
 * Modify the config.js and config the project file path information in it.
-* Run the cweb command in shell, for example `compile [filename1][,filename2][,..]`
+* Run the cweb command in shell, for example `Tcompile [filename1][,filename2][,..]`
 
 ## Tips
 
