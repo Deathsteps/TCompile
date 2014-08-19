@@ -11,12 +11,17 @@ TCompile is a compress/merge tool for ctrip/Taocan project. It will compress the
 ## Commands
 
 `Tcompile [filename1][,filename2][,..]`. 
+
 This command will excute the follow steps: 
+
 First, compress the source files in the src directory;
+
 Second, merge the dependences required in the source files;
+
 Last, write content into the target files and check in.
 
 `Tcompile -tools [filename1][,filename2][,..]` or `Tcompile -mods [filename1][,filename2][,..]`.
+
 These two command will only call the compression action on the source files. They are used in the situation that compile the tool modules and common business modules.
 
 ## Tips
