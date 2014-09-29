@@ -12,7 +12,12 @@
   <script src="http://code.jquery.com/qunit/qunit-1.15.0.js"></script>
   <script src="sea.js"></script>
   <script type="text/javascript">
-	seajs.use('min/test');
+	seajs.config({
+		paths: {
+			webresource: 'min'
+		}
+	});
+	seajs.use('webresource/test');
   </script>
 </body>
 </html>
