@@ -1,5 +1,5 @@
 {
-  "name": "TCompile",
+  "name": "tcompile",
   "version": "0.1.1",
   "description": "A compressing tool for ctrip/Taocan project",
   "author": "Shan Shi <shiz@ctrip.com>",
@@ -11,5 +11,5 @@
     "uglify"  : "~2.4.15"
   },
   "main":  "./lib/compile.js",
-  "bin": { "Tcompile": "bin/compile" }
+  "bin": { "tcompile": "bin/compile" }
 }
