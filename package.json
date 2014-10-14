@@ -1,12 +1,16 @@
 {
   "name": "tcompile",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A compressing tool for ctrip/Taocan project",
+  "keywords": ["compress", "seajs", "ctrip"],
   "author": "Shan Shi <shiz@ctrip.com>",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/Deathsteps/TCompile",
+  "bugs": "https://github.com/Deathsteps/TCompile/issues",
   "engines": {
     "node": ">= 0.8.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "bluebird": "~2.2.2",
     "uglify"  : "~2.4.15"
   },
