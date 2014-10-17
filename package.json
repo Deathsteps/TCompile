@@ -1,6 +1,6 @@
 {
   "name": "tcompile",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A compressing tool for ctrip/Taocan project",
   "keywords": ["compress", "seajs", "ctrip"],
   "author": "Shan Shi <shiz@ctrip.com>",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bluebird": "~2.2.2",
-    "uglify"  : "~2.4.15"
+    "uglify-js"  : "~2.4.15"
   },
   "main":  "./lib/compile.js",
   "bin": { "tcompile": "bin/compile" }
