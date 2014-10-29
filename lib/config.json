@@ -1,0 +1,20 @@
+{
+    "mail": "shiz@ctrip.com",
+    "CRLF": "\r\n",
+    "checkinAfterSave": false,
+    "path": {
+        "project": "d:\\Users\\shiz\\Desktop\\T-compile\\test",
+        "docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs",
+        "src": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\src",
+        "min": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\min",
+        "tools": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools",
+        "mods": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\mods"
+    },
+    "jsdoc": {
+        "command": "D:\\Users\\shiz\\node_modules\\jsdoc\\jsdoc",
+        "source": {
+            "includePattern": ".+\\.js$",
+            "excludePattern": "(^|\\/|\\\\)_|(docs|min)\\\\"
+        }
+    }
+}
