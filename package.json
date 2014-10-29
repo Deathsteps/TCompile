@@ -1,10 +1,10 @@
 {
   "name": "tcompile",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A compressing tool for ctrip/Taocan project",
   "keywords": ["compress", "seajs", "ctrip"],
   "author": "Shan Shi <shiz@ctrip.com>",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "homepage": "https://github.com/Deathsteps/TCompile",
   "bugs": "https://github.com/Deathsteps/TCompile/issues",
   "engines": {
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "bluebird": "~2.2.2",
-    "uglify-js": "~2.4.15"
+    "uglify-js": "~2.4.15",
+    "jsdoc": "~3.3.0"
   },
   "main":  "./lib/compile.js",
   "bin": { "tcompile": "bin/compile" }

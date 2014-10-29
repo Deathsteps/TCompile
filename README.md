@@ -33,6 +33,34 @@ This command will build a repl to let you initialize the tool configuration. Reg
 
 It will show you the usage of the commands.
 
+`Tcompile -doc`
+
+It will make the documents of your project codes by using jsdoc3. The source path and destination path are both configuated in the config.json. If you want to use this feature, make sure you write comments in jsdoc style.
+
+## Config details
+
+* `mail`: the email signature which will be added to the head of the compressed file
+* `checkinAfterSave`: whether to check in files or not when compiling progress finished
+* `jsdoc`: see how to configuate it in http://usejsdoc.org/about-configuring-jsdoc.html
+
+		{
+			"mail": "shiz@ctrip.com",
+			"CRLF": "\r\n",	
+			"checkinAfterSave": false,
+			"path": {
+				"project": "d:\\Users\\shiz\\Desktop\\T-compile\\test",
+				"docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs"
+			},
+			"jsdoc": {
+				"command": "D:\\Users\\shiz\\node_modules\\jsdoc\\jsdoc",
+				
+				"source": {
+					"includePattern": ".+\\.js$",
+					"excludePattern": "(^|\\/|\\\\)_|(docs|min)\\\\"
+				}
+			}
+		}
+
 ## Tips
 
 * In order to merge the dependences into the main module, make sure that the module definition match the [seajs](http://seajs.org/docs/) CMD pattern.
