@@ -52,8 +52,6 @@ It will make the documents of your project codes by using jsdoc3. The source pat
 				"docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs"
 			},
 			"jsdoc": {
-				"command": "D:\\Users\\shiz\\node_modules\\jsdoc\\jsdoc",
-				
 				"source": {
 					"includePattern": ".+\\.js$",
 					"excludePattern": "(^|\\/|\\\\)_|(docs|min)\\\\"

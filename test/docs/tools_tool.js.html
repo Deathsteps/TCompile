@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Source: Namespace.js</title>
+    <title>Source: tools/tool.js</title>
     
     
     
@@ -198,7 +198,7 @@
     </ul>
 </div>
     <div class="main">
-        <h1 class="page-title" data-filename="Namespace.js.html">Source: Namespace.js</h1>
+        <h1 class="page-title" data-filename="tools_tool.js.html">Source: tools/tool.js</h1>
         
 
 
@@ -206,9 +206,54 @@
     <section>
         <article>
             <pre class="prettyprint source "><code>/**
- * @namespace
+ * @fileoverview 常用函数
+ * @module  Tool
+ * @author	Deathsteps
+ * @version 1.0
+ * @requires seajs
+ * @requires cQuery or jQuery
+ * @example
+ * var Tool = require('tools/Tool');
+ * var result = Tool.multiply(1, 2);
  */
-var namespace = namespace || {};</code></pre>
+define(function (require, exports, module) {
+
+    /**
+     * multiply
+     * @param  {Number} a number a
+     * @param  {Number} b number b
+     * @return {Number} result
+     */
+	exports.multiply = function (a, b){
+		return a * b;
+	}
+
+
+    /**
+     * @class EventEmitter
+     * @constructs EventEmitter
+     * @param {Object} obj Target object
+     */
+    var EventEmitter = function(obj){
+
+    };
+
+    EventEmitter.prototype = {
+        /**
+         * add an event handler to the specified event
+         * @param  {String} evtName event name
+         * @param  {Function} handler handler function
+         * @return {EventEmitter} this
+         */
+        on: function (evtName, handler) {
+            
+        }
+    }
+
+    exports.EventEmitter = EventEmitter;
+	
+});
+</code></pre>
         </article>
     </section>
 
