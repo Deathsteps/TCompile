@@ -1,9 +1,13 @@
 {
-    "mail": "shiz@ctrip.com",
+    "mail": "lovely_dreamer@126.com",
     "CRLF": "\r\n",
     "checkinAfterSave": false,
     "path": {
-        "project": "d:\\Users\\shiz\\Desktop\\T-compile\\test"
+        "project": "d:\\Users\\shiz\\Desktop\\T-compile\\test",
+        "src": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\src",
+        "min": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\min",
+        "tools": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools",
+        "mods": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\mods"
     },
     "jsdoc": {
         "source": {
@@ -15,6 +19,6 @@
         "name": "handlebars",
         "partialExt": "partial.html",
         "ext": "html",
-        "helperPath": ""
+        "helperPath": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools\\helpers.js"
     }
 }
