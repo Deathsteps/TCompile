@@ -18,20 +18,20 @@ define(function (require, exports, module) {
 		]
 	};
 	
-	require('webresource/templateTest/views.js');
+	var testStr = [
+		'<h1>Normal Title</h1>',
+		'<p>abc - 123</p>',
+		'<p>Lily - Baker</p>'
+	];
 	
 	QUnit.test( "Handlebars templates precompiling", function( assert ) {
-
+		require('webresource/templateTest/views');
+	
 		var htmls = [
 			Handlebars.templates["normal"](data1),
 			Handlebars.templates["customHelper"](data2),
 			Handlebars.templates["view"](data3)
 		];
-		var testStr = [
-			'<h1>Normal Title</h1>',
-			'<p>abc - 123</p>',
-			'<p>Lily - Baker</p>'
-		]
 
 		assert.ok(htmls[0].indexOf(testStr[0]) != -1, 'Normal template works.');
 		assert.ok(htmls[1].indexOf(testStr[1]) != -1, 'Tools.multiply excutes successfully');
