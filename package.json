@@ -1,6 +1,6 @@
 {
   "name": "tcompile",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "A compressing tool for ctrip/Taocan project",
   "keywords": ["compress", "seajs", "ctrip"],
   "author": "Shan Shi <shiz@ctrip.com>",

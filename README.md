@@ -19,7 +19,7 @@ This command will excute the follow steps:
 
 `Tcompile -tools [filename1][,..]` or `Tcompile -mods [filename1][,..]`.
 
-These two command will only call the compression action on the source files. They are used in the situation that compile the tool modules and common business modules.
+Used in the situation that compile the tool modules and common business modules.
 
 `Tcompile -compress [filename1][,..]`
 
@@ -42,21 +42,28 @@ It will make the documents of your project codes by using jsdoc3. The source pat
 * `mail`: the email signature which will be added to the head of the compressed file
 * `checkinAfterSave`: whether to check in files or not when compiling progress finished
 * `jsdoc`: see how to configuate it in http://usejsdoc.org/about-configuring-jsdoc.html
+* `template`: the configuation used when compiling related view templates
 
 		{
-			"mail": "shiz@ctrip.com",
-			"CRLF": "\r\n",	
-			"checkinAfterSave": false,
-			"path": {
-				"project": "d:\\Users\\shiz\\Desktop\\T-compile\\test",
-				"docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs"
-			},
-			"jsdoc": {
-				"source": {
-					"includePattern": ".+\\.js$",
-					"excludePattern": "(^|\\/|\\\\)_|(docs|min)\\\\"
-				}
-			}
+		    "mail": "lovely_dreamer@126.com",
+		    "CRLF": "\r\n",
+		    "checkinAfterSave": false,
+		    "path": {
+		        "project": "d:\\Users\\shiz\\Desktop\\T-compile\\test",
+		        "docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs"
+		    },
+		    "jsdoc": {
+		        "source": {
+		            "includePattern": ".+\\.js$",
+		            "excludePattern": "(^|\\/|\\\\)_|(docs|min)\\\\"
+		        }
+		    },
+		    "template": {
+		        "name": "handlebars",
+		        "partialExt": "partial.html",
+		        "ext": "html",
+		        "helperPath": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools\\helpers.js"
+		    }
 		}
 
 ## Tips
