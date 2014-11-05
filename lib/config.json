@@ -1,5 +1,5 @@
 {
-    "mail": "lovely_dreamer@126.com",
+    "mail": "shiz@ctrip.com",
     "CRLF": "\r\n",
     "checkinAfterSave": false,
     "path": {
@@ -7,7 +7,8 @@
         "src": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\src",
         "min": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\min",
         "tools": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools",
-        "mods": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\mods"
+        "mods": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\mods",
+        "docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs"
     },
     "jsdoc": {
         "source": {

@@ -34,8 +34,8 @@ define(function (require, exports, module) {
 		];
 
 		assert.ok(htmls[0].indexOf(testStr[0]) != -1, 'Normal template works.');
-		assert.ok(htmls[1].indexOf(testStr[1]) != -1, 'Tools.multiply excutes successfully');
-		assert.ok(htmls[2].indexOf(testStr[2]) != -1, 'Import mods/quickview successfully');
+		assert.ok(htmls[1].indexOf(testStr[1]) != -1, 'CustomHelper tempalte works');
+		assert.ok(htmls[2].indexOf(testStr[2]) != -1, 'View with partial view tempalte works');
 	});
 	
 });
