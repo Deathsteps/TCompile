@@ -26,6 +26,7 @@ define(function (require, exports, module) {
 	
 	QUnit.test( "Handlebars templates precompiling", function( assert ) {
 		require('webresource/templateTest/views');
+		require('tools/helpers');
 	
 		var htmls = [
 			Handlebars.templates["normal"](data1),

@@ -19,7 +19,6 @@
     "template": {
         "name": "handlebars",
         "partialExt": "partial.html",
-        "ext": "html",
-        "helperPath": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools\\helpers.js"
+        "ext": "html"
     }
 }

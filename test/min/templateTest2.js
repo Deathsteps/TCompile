@@ -19,6 +19,6 @@ Handlebars.registerHelper('list', function(items, options) {
 /**BuildTime: Tue Nov 04 2014 17:36:11 GMT+0800 (中国标准时间)
  *If you found any bug, please mail to lovely_dreamer@126.com*/
 define("mods/hotsearch",[],function(require,exports){var t={title:"Normal Title",body:"<p>This is a post about &lt;p&gt; tags</p>"};require("mods/hotsearch/views"),exports.render=function(){return Handlebars.templates.normal(t)}});;
-/**BuildTime: Tue Nov 04 2014 17:40:59 GMT+0800 (中国标准时间)
- *If you found any bug, please mail to lovely_dreamer@126.com*/
+/**BuildTime: Thu Nov 06 2014 20:18:48 GMT+0800 (中国标准时间)
+ *If you found any bug, please mail to shiz@ctrip.com*/
 define(function(require){var e=["<h1>Normal Title</h1>","<p>abc - 123</p>","<p>Lily - Baker</p>"];QUnit.test("Module in mods, Handlebars templates precompiling",function(a){var n=require("mods/hotsearch"),o=n.render();a.ok(-1!=o.indexOf(e[0]),"Normal template works.")})});
