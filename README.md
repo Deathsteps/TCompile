@@ -37,6 +37,10 @@ It will show you the usage of the commands.
 
 It will make the documents of your project codes by using jsdoc3. The source path and destination path are both configuated in the config.json. If you want to use this feature, make sure you write comments in jsdoc style.
 
+`Tcompile -watch`
+
+Monitor the view files in specified directory, if the file change, compile it into the views.js.
+
 ## Config details
 
 * `mail`: the email signature which will be added to the head of the compressed file
@@ -61,8 +65,7 @@ It will make the documents of your project codes by using jsdoc3. The source pat
 		    "template": {
 		        "name": "handlebars",
 		        "partialExt": "partial.html",
-		        "ext": "html",
-		        "helperPath": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools\\helpers.js"
+		        "ext": "html"
 		    }
 		}
 
