@@ -1,4 +1,4 @@
-# TCompile v0.2.2
+# TCompile v0.4.1
 
 TCompile is a compress/merge tool for ctrip/Taocan project. It will compress the module and merge the dependent modules into the main module. 
 
