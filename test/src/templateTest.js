@@ -25,6 +25,8 @@ define(function (require, exports, module) {
 	];
 	
 	QUnit.test( "Handlebars templates precompiling", function( assert ) {
+		var Handlebars = require('tools/handlebars.runtime-v2.0.0');
+		
 		require('webresource/templateTest/views');
 		require('tools/helpers');
 	
