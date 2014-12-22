@@ -1,4 +1,4 @@
-# TCompile v0.4.2
+# TCompile v0.4.3
 
 TCompile is a compress/merge tool for ctrip/Taocan project. It will compress the module and merge the dependent modules into the main module. 
 
@@ -28,6 +28,7 @@ Compress the specified files that doesnt rely on the directories which were defi
 `Tcompile -init`
 
 This command will build a repl to let you initialize the tool configuration. Regularly, you should set the values of `mail` and `path`.
+Right now, you can switch the project config by setting the value of the projectConfig.
 
 `Tcompile -help`
 
@@ -55,6 +56,10 @@ Monitor the view files in specified directory, if the file change, compile it in
 		    "path": {
 		        "project": "d:\\Users\\shiz\\Desktop\\T-compile\\test",
 		        "docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs"
+		    },
+		    "projectConfig": {
+		        "online": "d:\\Users\\shiz\\Desktop\\online.json",
+		        "test": "d:\\Users\\shiz\\Desktop\\test.json"
 		    },
 		    "jsdoc": {
 		        "source": {
