@@ -11,6 +11,10 @@ ol {
 li {
   list-style-type: none;
 }
+/*@deathsteps*/
+p {
+  margin: 10px 5px;
+}
 #wrap {
   position: relative;
 }
@@ -333,6 +337,19 @@ li {
   margin-bottom: 5px;
   list-style-type: disc;
 }
+
+/*@deathsteps*/
+.main article h1 {
+  margin: 15px 0;
+}
+.main article h2 {
+  margin: 15px 0;
+}
+.main article h4 {
+  margin-top: 10px;
+}
+
+
 footer {
   margin: 15px 0;
   padding-top: 15px;

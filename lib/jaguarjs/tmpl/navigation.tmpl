@@ -13,7 +13,11 @@ var self = this;
     ?>
         <li class="item" data-name="<?js= item.longname ?>">
             <span class="title">
+                <?js if (item.type === 'tutorial') { ?>
+                <?js= self.tutoriallink(item.name) ?>
+                <?js } else { ?>
                 <?js= self.linkto(item.longname, item.name) ?>
+                <?js } ?>
                 <?js if (item.type === 'namespace' || item.type === 'module') { ?>
                 <span class="static">static</span>
                 <?js } ?>
