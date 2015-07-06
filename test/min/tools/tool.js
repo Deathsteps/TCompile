@@ -1,0 +1,1 @@
+define(function(require,exports){exports.multiply=function(n,t){return n*t};var n=function(){};n.prototype={on:function(){}},exports.EventEmitter=n});

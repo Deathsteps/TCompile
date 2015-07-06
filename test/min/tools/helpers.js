@@ -1,0 +1,1 @@
+!function(e){e.registerHelper("list",function(e,t){for(var n="<ul>",r=0,a=e.length;a>r;r++)n=n+"<li>"+t.fn(e[r])+"</li>";return n+"</ul>"})}(Handlebars);

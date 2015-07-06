@@ -1,18 +1,20 @@
 {
-    "mail": "shiz@ctrip.com",
+    "mail": "lovely_dreamer@126.com",
     "CRLF": "\r\n",
-    "checkinAfterSave": true,
+    "checkinAfterSave": false,
     "path": {
-        "project": "D:\\TFS\\TFS_70\\TaoCan\\ResStatic\\Branches\\Code\\ResPackageOnline\\js",
-        "src": "D:\\TFS\\TFS_70\\TaoCan\\ResStatic\\Branches\\Code\\ResPackageOnline\\js\\src",
-        "min": "D:\\TFS\\TFS_70\\TaoCan\\ResStatic\\Branches\\Code\\ResPackageOnline\\js\\min",
-        "tools": "D:\\TFS\\TFS_70\\TaoCan\\ResStatic\\Branches\\Code\\ResPackageOnline\\js\\tools",
-        "mods": "D:\\TFS\\TFS_70\\TaoCan\\ResStatic\\Branches\\Code\\ResPackageOnline\\js\\mods",
-        "docs": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\docs"
+        "project": "d:\\Users\\shiz\\Desktop\\T-compile\\test",
+        "src": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\src",
+        "min": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\min",
+        "tools": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\tools",
+        "mods": "d:\\Users\\shiz\\Desktop\\T-compile\\test\\mods",
+        "docs": "D:\\CtripGit\\Webresource\\Webresource\\ResPackageOnline\\js\\doc"
     },
     "projectConfig": {
         "online": "d:\\Users\\shiz\\Desktop\\online.json",
-        "test": "d:\\Users\\shiz\\Desktop\\test.json"
+        "test": "d:\\Users\\shiz\\Desktop\\test.json",
+        "resource": "d:\\Users\\shiz\\Desktop\\resource.json",
+        "doc": "d:\\Users\\shiz\\Desktop\\doc.json"
     },
     "jsdoc": {
         "source": {

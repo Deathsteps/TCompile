@@ -1,0 +1,1 @@
+define(function(require,exports,module){function n(){}n.prototype.show=function(n){return n},module.exports=n});
